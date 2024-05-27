@@ -15,7 +15,7 @@ const renderBanner = async () => {
   // getEl('js-next-01').classList.remove('hidden');
   await typeText('js-type-02', `be`, 100);
   getEl('js-space-02').classList.remove('hidden');
-  if (isMobile())getEl('js-next-02').classList.remove('hidden'); 
+  // if (isMobile())getEl('js-next-02').classList.remove('hidden'); 
   await typeText('js-type-03', `a cunt!`, 40);
   blinkCaret(true);
   // getEl('js-main-img-1').classList.add('bw-opacity-trans');
