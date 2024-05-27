@@ -22,6 +22,7 @@ const renderBanner = async () => {
   await elapseTime(2000);
 
   getEl('js-header').classList.add('blk-trans');
+  getEl('js-body').classList.add('blk-trans');
   getEl('js-type-01').classList.add('white-trans');
   getEl('js-type-02').classList.add('white-trans');
   getEl('js-type-03').classList.add('white-trans');
