@@ -8,15 +8,15 @@ const renderBanner = async () => {
   await elapseTime(500);
   getEl('js-header').scrollIntoView();
   await elapseTime(1500);
-  await typeText('js-type-01', `Don't`, 70);
+  await typeText('js-type-01', `DON'T`, 70);
   // await typeText('js-type-01', `맞을래?`, 70);
   await elapseTime(300);
   getEl('js-space-01').classList.remove('hidden');
   // getEl('js-next-01').classList.remove('hidden');
-  await typeText('js-type-02', `be`, 100);
+  await typeText('js-type-02', `BE`, 100);
   getEl('js-space-02').classList.remove('hidden');
   // if (isMobile())getEl('js-next-02').classList.remove('hidden'); 
-  await typeText('js-type-03', `a cunt!`, 40);
+  await typeText('js-type-03', `a CUNT!`, 40);
   blinkCaret(true);
   // getEl('js-main-img-1').classList.add('bw-opacity-trans');
   await elapseTime(2000);
