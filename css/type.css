@@ -130,7 +130,7 @@
 
   font-family: "SF_Pro_Display_Semibold", sans-serif;
   /* font-size: 112px; */
-  font-size: 68px;
+  font-size: 54px;
   letter-spacing: -2px;
   text-align: center;
   /* line-height: 2; */
@@ -188,7 +188,7 @@
   }
 
   .text-head {
-    font-size: 50px;
+    font-size: 38px;
   }
 
   .caret {
